@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_existchk",
+  "source_file": "Sas macro/precision recall analysis.sas",
+  "source_blob_sha": "1807c5d5278181b9ab0f883628a3e1f25cbc34b1",
+  "source_commit": "3fce5129d9488a8d9ed0648af408b5a18af7629f",
+  "notes": "The %existchk macro (a data-set/variable-existence validation helper used internally by the file's main %PRcurve macro) is byte-identical to the repo's macro. The repo ships this macro with no caller; the calls at the bottom exercise all three of its documented outcomes (data+vars found; a requested variable missing; the data set itself missing) against a small synthetic dataset (8 rows, mock predicted score + binary outcome, not real patient data)."
+}
