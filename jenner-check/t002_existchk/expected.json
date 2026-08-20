@@ -1,0 +1,22 @@
+{
+  "_captured_at": "2026-08-20T05:20:00Z",
+  "_captured_run_id": "r_4f5444f2ebfe418794d1747e6a65b716",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Case 1 status=ok",
+    "WARNING: Variable nonexistent_var not found in data MOCK_CLASS.",
+    "NOTE: Case 2 status=novar",
+    "ERROR: Data set DOESNOTEXIST not found.",
+    "NOTE: Case 3 status=nodata"
+  ],
+  "log_does_not_contain": [
+    "[JENNER-ERROR",
+    "Unlicensed",
+    "Get a license"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
